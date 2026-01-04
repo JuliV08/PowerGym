@@ -1,0 +1,34 @@
+services:
+  web:
+    build: .
+    container_name: powergym_prod_web
+    expose:
+      - "8000"
+    ports:
+      - "127.0.0.1:18081:8000"
+    volumes:
+      - /srv/powergym/volumes/static:/app/staticfiles
+      - /srv/powergym/volumes/media:/app/media
+    env_file:
+      - .env.prod
+    networks:
+      - powergym_prod_net
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  db:
+    image: postgres:15-alpine
+    container_name: powergym_prod_db
+    volumes:
+      - /srv/powergym/volumes/pgdata:/var/lib/postgresql/data
+    env_file:
+      - .env.prod.db
+    networks:
+      - powergym_prod_net
+    restart: unless-stopped
+
+networks:
+  powergym_prod_net:
+    name: powergym_prod_net
+    driver: bridge

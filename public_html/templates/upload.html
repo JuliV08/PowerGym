@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Subir Imagen</title>
+</head>
+<body>
+  <h1>Subir Imagen a la Galería</h1>
+  <form method="post" enctype="multipart/form-data">
+    <label for="image">Selecciona la imagen:</label>
+    <input type="file" name="image" id="image" required>
+    <br><br>
+    <label for="category">Elige la categoría:</label>
+    <select name="category" id="category">
+      <option value="Cardio">Cardio</option>
+      <option value="Musculación">Musculación</option>
+      <option value="ElGym">ElGym</option>
+      <option value="Vestuarios">Vestuarios</option>
+      <option value="SalaFitness">SalaFitness</option>
+    </select>
+    <br><br>
+    <button type="submit">Subir</button>
+  </form>
+  <br>
+  <a href="{{ url_for('gallery') }}">Ver Galería</a>
+</body>
+</html>

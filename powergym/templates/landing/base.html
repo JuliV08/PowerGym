@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>{% block title %}PowerGYM - Tu Gimnasio en Monte Grande{% endblock %}</title>
+    <meta name="description" content="{% block description %}El gimnasio que siempre quisiste tener. Av. Dardo Rocha 1338. Tel 11 3898-7574{% endblock %}">
+    <meta name="keywords" content="powergym, power, gym, gimnasio, monte grande, el jaguel, dardo rocha, esteban echeverria, entrenamiento, zona sur">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicons/icono32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicons/icono16.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicons/icono180.png' %}">
+    
+    <!-- Tailwind CSS CDN (para desarrollo - en producción usar build) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'pg-black': '#0a0a0a',
+                        'pg-dark': '#1a1a1a',
+                        'pg-red': '#dc2626',
+                        'pg-red-dark': '#b91c1c',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- GLightbox for image lightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    
+    {% block extra_css %}{% endblock %}
+    
+    <style>
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        /* Custom gradient backgrounds */
+        .bg-gradient-dark {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+        }
+        
+        .bg-gradient-red {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+        }
+        
+        /* Glassmorphism effect */
+        .glass {
+            background: rgba(26, 26, 26, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        
+        /*Fade-in animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+        
+        /* Hover glow effect for cards */
+        .hover-glow {
+            transition: all 0.3s ease;
+        }
+        
+        .hover-glow:hover {
+            box-shadow: 0 0 30px rgba(220, 38, 38, 0.3);
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-pg-black text-gray-100 antialiased">
+    
+    {% block content %}{% endblock %}
+    
+    <!-- GLightbox JS -->
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    
+    <script>
+        // Initialize GLightbox
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true,
+        });
+        
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in-up');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all elements with data-animate attribute
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('[data-animate]').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

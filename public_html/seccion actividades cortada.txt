@@ -1,0 +1,396 @@
+
+<!-- ======= Schedule part start ======= -->
+	<section id="schedule" class="schedule-area section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title">
+						<h1>Actividades</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="schedule" data-slick='{"initialSlide": 1}'>
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<i class="fa fa-calendar" aria-hidden="true"></i>								lunes,<span>12</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Spinning										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional Cross										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>20:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<span>¡hoy!</span>								martes,<span>06</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										Spinning										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>17:30hs.</span>
+										Funcional Kids										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:30hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:30hs.</span>
+										Stretching										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>20:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<i class="fa fa-calendar" aria-hidden="true"></i>								miércoles,<span>07</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Spinning										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional Cross										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>20:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<i class="fa fa-calendar" aria-hidden="true"></i>								jueves,<span>08</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										Spinning										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:30hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:30hs.</span>
+										Stretching										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>20:30hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<i class="fa fa-calendar" aria-hidden="true"></i>								viernes,<span>09</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>08:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Pilates										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Spinning										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										Funcional Cross										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>20:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												<div class="schedule-dec">
+							<div class="schedule-title">
+								<i class="fa fa-calendar" aria-hidden="true"></i>								sábado,<span>10</span>
+							</div>
+							<div class="schedule-timing">
+<!--								<h2>appointment:</h2>-->
+								<div class="row">
+									<div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>09:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>10:00hs.</span>
+										Funcional Kids										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div><div class="col-md-6"><ul>								
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>18:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+																	
+									<li class=" ">
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i>19:00hs.</span>
+										ElGym										<!--										<a class="hvr-shutter-out-vertical" href="#">Inscribirme</a>-->
+									</li>
+									</ul></div>
+									<!--<li class="unavailable"><span><i class="fa fa-clock-o" aria-hidden="true"></i>7.00am-8.00am</span>1 time slot available<a href="#">unavailable</a></li>-->
+
+								</div>
+								
+							</div>
+						</div>
+						
+												
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>

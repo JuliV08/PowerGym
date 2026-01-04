@@ -1,0 +1,447 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	/*** menu part ***/
+	/*.separet {
+		padding: 1px;
+	}*/
+	/*** top button part ***/
+	.gym-btn.join-btn {
+		left: 15px;
+		padding: 5px 8px;
+		top: 18px;
+	}
+	/*** slider part ***/
+	.gym-single-slider h1 {
+		font-size: 55px;
+	}
+	.gym-single-slider h2 {
+		font-size: 45px;
+	}
+	/*** about-gym part ***/
+	.about-gym-area::before {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+		content: "";
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.about-gym-area .title>h1,
+	.about-gym-area p {
+		color: #fff;
+	}
+	/*** fityourself part ***/
+	.fityourself-gym-tablecell {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll center top;
+		height: 400px;
+	}
+	.fityourself-gym-tablecell .title>h1,
+	.fityourself-gym-tablecell p {
+		color: #fff;
+	}
+	.fityourself-area {
+		margin: 40px 0;
+	}
+	/*** about fitness part ***/
+	.about-fitness>img {
+		margin-left: 15px;
+	}
+	/*** price table part ***/
+	.price-table-dec {
+		width: 100%;
+	}
+	/*** client part ***/
+	/*.slick-prev {
+		left: 48%;
+	}*/
+	.client-dec {
+		padding: 25px 60px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar .container, .navbar-collapse{width: 100%;}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	
+	/*** button part ***/
+	.gym-btn.join-btn {
+		left: 35%;
+		float: none;
+		top: 12px;
+	}
+	.btn-padding {
+		padding: 5px 10px;
+	}
+	/*** 404 part ***/
+	.not-found-top h1 {
+		font-size: 250px;
+	}
+	.not-found-table-cell h3 {
+		font-size: 40px;
+	}
+	.not-found-top>span {
+		font-size: 40px;
+		right: -20px;
+	}
+	.not-found-top h1::after {
+		font-size: 50px;
+		height: 70px;
+		line-height: 70px;
+		top: 100px;
+	}
+	/*** slider part ***/
+	.carousel-inner {
+		height: 425px;
+	}
+	.gym-single-slider {
+		height: 350px;
+	}
+	.gym-single-slider h1 {
+		font-size: 45px;
+	}
+	.gym-single-slider h2 {
+		font-size: 55px;
+	}
+	/*** title part ***/
+	.title::before {
+		width: 45%;
+	}
+	/*** about-gym part ***/
+	.about-gym-area::before {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+		content: "";
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.about-gym-area .title>h1,
+	.about-gym-area p {
+		color: #fff;
+	}
+	/*** fityourself part ***/
+	.fityourself-gym-tablecell {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+		height: 400px;
+	}
+	.fityourself-gym-tablecell .title>h1,
+	.fityourself-gym-tablecell p {
+		color: #fff;
+	}
+	.fityourself-area {
+		margin: 40px 0;
+	}
+	.about-us-img {
+		top: 0;
+	}
+	/*** project part ***/
+	#modalPubli .single-project,
+	.single-project {
+		width: 33.33%;
+	}
+	/*** price table part ***/
+	/*.price-table-dec {
+		width: 70%;
+	}*/
+	/*** client part ***/
+	.client-content {
+		width: 78%;
+	}
+	.client-dec {
+		padding: 25px 50px;
+	}
+	.client-img {
+		width: 22%;
+	}
+	/*.slick-prev {
+		left: 45%;
+	}*/
+	/*** google map part ***/
+	.gmap3 {
+		height: 350px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	/*saco linea cuando se apilan*/
+	.schedule-timing .row>div:first-child li:last-child {
+		border-bottom: none;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.price-table-dec ul{
+		padding: 0px;
+	}
+	.price-table-dec ul li {
+		padding: 10px;
+	}
+	.demo-title h2 {
+		font-size: 18px;
+	}
+	p,
+	li {
+		font-size: 14px !important;
+	}
+	.separet {
+		display: none;
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+	.gym-btn.join-btn {
+		float: none;
+		padding: 5px 10px;
+	}
+	/*** 404 part ***/
+	.not-found-top {
+		width: 100%;
+	}
+	.not-found-top h1 {
+		font-size: 150px;
+	}
+	.not-found-top>span {
+		font-size: 35px;
+		right: -30px;
+	}
+	.not-found-top h1::after {
+		bottom: 50px;
+		font-size: 30px;
+		height: 50px;
+		line-height: 50px;
+	}
+	.not-found-table-cell h3 {
+		font-size: 30px;
+	}
+	/*** slider part ***/
+	.carousel-inner,
+	.item img {
+		height: 500px !important;
+	}
+	.gym-single-slider {
+		height: 460px;
+	}
+	.gym-single-slider h1 {
+		font-size: 20px;
+		padding: 0;
+	}
+	.gym-single-slider h2 {
+		font-size: 15px;
+		padding: 0;
+	}
+	.gym-btn {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+	/*** title part ***/
+	.title::before {
+		margin: -20px 0;
+		width: 100%;
+	}
+	.title {
+		text-align: center;
+	}
+	.title>h1 {
+		font-size: 30px;
+	}
+	/*** about-gym part ***/
+	.about-gym-area::before {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+		content: "";
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	.about-gym-area {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	}
+	.about-gym-area .title>h1,
+	.about-gym-area p {
+		color: #fff;
+	}
+	/*** fityourself part ***/
+	.fityourself-gym-tablecell {
+		background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+		height: 400px;
+	}
+	.fityourself-gym-tablecell .title>h1,
+	.fityourself-gym-tablecell p {
+		color: #fff;
+	}
+	.fityourself-area {
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		margin: 40px 0;
+	}
+	/*** about-fitness part ***/
+	.about-fitness {
+		padding-left: 0;
+	}
+	.about-fitness::after {
+		top: 40%;
+	}
+	.about-fitness>h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.about-fitness>img {
+		margin-left: 0;
+	}
+	/*** project part ***/
+	.iso-nav ul li {
+		/*border-radius: 0;
+		width: 100%;*/
+		margin-bottom: 3px;
+		
+	}
+	#modalPubli .single-project,
+	.single-project {
+		width: 50%;
+	}
+	/*** about us part ***/
+	.about-us-img {
+		height: 250px;
+		width: 80%;
+	}
+	/*** progress part ***/
+	.progress-circle {
+		width: 100%;
+	}
+	.skill-progress-bar h4 {
+		display: block;
+		margin-bottom: 5px;
+	}
+	.progress {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	/*** price part ***/
+	.price-table-dec {
+		width: 100%;
+	}
+	/*** schedule part ***/
+	.schedule-title {
+		font-size: 14px;
+	}
+	.schedule-timing {
+		padding: 20px;
+	}
+	.schedule-timing>h2 {
+		font-size: 25px;
+		text-align: center;
+	}
+	/*.schedule-timing ul li span {
+		display: block;
+		float: none;
+	}*/
+	.schedule-timing a {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	.schedule {
+		position: relative;
+	}
+	.schedule-area .schedule button.slick-prev::before,
+	.schedule-area .schedule button.slick-next::before {
+/*		background-color: #D63138;*/
+		font-size: 25px;
+	}
+	.schedule-area .schedule button.slick-prev {
+/*		top: 103%;*/
+		left: 2%;
+	}
+	.schedule-area .schedule button.slick-next {
+/*		top: 103%;*/
+		right: 2%;
+	}
+	/*** client part ***/
+	.client-img {
+		float: none;
+		margin: 25px auto !important;
+		width: 45%;
+	}
+	.client-dec {
+		padding: 30px 0;
+	}
+	.client-content {
+		float: right;
+		margin-top: 30px;
+		text-align: left;
+		width: 100%;
+	}
+	/*.client-part .slick-prev,
+	.slick-next {
+		top: 90%;
+	}
+	.client-part .slick-prev {
+		left: 77%;
+	}
+	.client-part .slick-next {
+		right: 0;
+	}*/
+	/*** google map part ***/
+	#test {
+		float: none;
+		width: 100%;
+		height: 400px;
+	}
+	#panorama {
+		display: none;
+	}
+	/*** scroll top part ***/
+	#scrollUp {
+		right: 5px;
+		bottom: 70px;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*** slider part ***/
+	.gym-single-slider h1 {
+		font-size: 25px;
+	}
+	.gym-single-slider h2 {
+		font-size: 20px;
+	}
+	/*** 404 part ***/
+	.not-found-top>span {
+		right: 45px;
+	}
+	.not-found-top h1::after {
+		height: 60px;
+		line-height: 60px;
+	}
+	/*** project part ***/
+	/*.project-lightbox {
+		padding: 136px 0;
+	}*/
+	.project-lightbox a i.fa {
+		border-radius: 50%;
+		font-size: 20px;
+	}
+	/*** about us part ***/
+	.about-us-img {
+		width: 55%;
+	}
+	/*** schedule part ***/
+	/*.schedule-area .schedule button.slick-prev {
+		left: 40%;
+	}
+	.schedule-area .schedule button.slick-next {
+		right: 40%;
+	}*/
+	/*** client part ***/
+	.client-part .slick-prev {
+		left: 85%;
+	}
+}
