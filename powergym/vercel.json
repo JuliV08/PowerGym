@@ -1,7 +1,7 @@
 {
     "builds": [
         {
-            "src": "powergym_project/wsgi.py",
+            "src": "powergym_vercel.py",
             "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
@@ -18,8 +18,12 @@
     ],
     "routes": [
         {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "powergym_project/wsgi.py"
+            "dest": "powergym_vercel.py"
         }
     ]
 }
