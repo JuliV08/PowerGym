@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="es" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>{% block title %}PowerGYM - Tu Gimnasio en Monte Grande{% endblock %}</title>
-    <meta name="description" content="{% block description %}El gimnasio que siempre quisiste tener. Av. Dardo Rocha 1338. Tel 11 3898-7574{% endblock %}">
-    <meta name="keywords" content="powergym, power, gym, gimnasio, monte grande, el jaguel, dardo rocha, esteban echeverria, entrenamiento, zona sur">
-    
+    <meta name="description"
+        content="{% block description %}El gimnasio que siempre quisiste tener. Av. Dardo Rocha 1338. Tel 11 3898-7574{% endblock %}">
+    <meta name="keywords"
+        content="powergym, power, gym, gimnasio, monte grande, el jaguel, dardo rocha, esteban echeverria, entrenamiento, zona sur">
+
     <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicons/icono32.png' %}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicons/icono16.png' %}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicons/icono180.png' %}">
-    
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicons/icono32.png' %}"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicons/icono16.png' %}"> -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/favicons/icono180.png' %}"> -->
+
     <!-- Tailwind CSS CDN (para desarrollo - en producción usar build) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -34,72 +38,150 @@
             }
         }
     </script>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    
+
     <!-- GLightbox for image lightbox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-    
+
     {% block extra_css %}{% endblock %}
-    
+
     <style>
         body {
             font-family: 'Inter', system-ui, sans-serif;
         }
-        
+
         /* Custom gradient backgrounds */
         .bg-gradient-dark {
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
         }
-        
+
         .bg-gradient-red {
             background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
         }
-        
+
         /* Glassmorphism effect */
         .glass {
             background: rgba(26, 26, 26, 0.7);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
         }
-        
+
         /*Fade-in animation */
         @keyframes fadeInUp {
             from {
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
+
         .animate-fade-in-up {
             animation: fadeInUp 0.6s ease-out forwards;
         }
-        
+
         /* Hover glow effect for cards */
         .hover-glow {
             transition: all 0.3s ease;
         }
-        
+
         .hover-glow:hover {
             box-shadow: 0 0 30px rgba(220, 38, 38, 0.3);
             transform: translateY(-5px);
         }
+
+        /* Custom Cursor */
+        @media (pointer: fine) {
+            body {
+                cursor: none;
+            }
+
+            .cursor-dot,
+            .cursor-outline {
+                position: fixed;
+                top: 0;
+                left: 0;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                z-index: 9999;
+                pointer-events: none;
+            }
+
+            .cursor-dot {
+                width: 8px;
+                height: 8px;
+                background-color: #dc2626;
+                /* pg-red */
+                box-shadow: 0 0 10px rgba(220, 38, 38, 0.8);
+            }
+
+            .cursor-outline {
+                width: 40px;
+                height: 40px;
+                border: 1px solid rgba(220, 38, 38, 0.5);
+                transition: width 0.2s, height 0.2s, background-color 0.2s;
+            }
+
+            /* Hover state */
+            body.hovering .cursor-outline {
+                width: 60px;
+                height: 60px;
+                background-color: rgba(220, 38, 38, 0.1);
+                border-color: transparent;
+                mix-blend-mode: screen;
+            }
+
+            body.hovering .cursor-dot {
+                transform: translate(-50%, -50%) scale(1.5);
+            }
+        }
+    </style>
+    <style>
+        /* Custom Scrollbar for Webkit browsers */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0a0a0a;
+            /* pg-black */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            /* Dark gray for unhovered state */
+            border-radius: 5px;
+            border: 2px solid #0a0a0a;
+            /* Creates padding effect */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #dc2626;
+            /* pg-red */
+        }
+
+        /* Firefox Scrollbar */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #333 #0a0a0a;
+        }
     </style>
 </head>
+
 <body class="bg-pg-black text-gray-100 antialiased">
-    
+
     {% block content %}{% endblock %}
-    
+
     <!-- GLightbox JS -->
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
-    
+
     <script>
         // Initialize GLightbox
         const lightbox = GLightbox({
@@ -107,13 +189,13 @@
             loop: true,
             autoplayVideos: true,
         });
-        
+
         // Intersection Observer for scroll animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
         };
-        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -122,15 +204,50 @@
                 }
             });
         }, observerOptions);
-        
+
         // Observe all elements with data-animate attribute
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('[data-animate]').forEach(el => {
                 observer.observe(el);
             });
+
+            /* Custom Cursor Logic */
+            const cursorDot = document.querySelector('.cursor-dot');
+            const cursorOutline = document.querySelector('.cursor-outline');
+
+            // Generate elements if they don't exist (safety)
+            if (!cursorDot || !cursorOutline) return;
+
+            window.addEventListener('mousemove', (e) => {
+                const posX = e.clientX;
+                const posY = e.clientY;
+
+                // Dot follows immediately
+                cursorDot.style.left = `${posX}px`;
+                cursorDot.style.top = `${posY}px`;
+
+                // Outline follows with slight delay/animation via CSS transition or simple lag
+                cursorOutline.animate({
+                    left: `${posX}px`,
+                    top: `${posY}px`
+                }, { duration: 500, fill: "forwards" });
+            });
+
+            // Add hover effect for interactive elements
+            const interactiveElements = document.querySelectorAll('a, button, input, textarea, .glightbox');
+
+            interactiveElements.forEach(el => {
+                el.addEventListener('mouseenter', () => document.body.classList.add('hovering'));
+                el.addEventListener('mouseleave', () => document.body.classList.remove('hovering'));
+            });
         });
     </script>
-    
+
+    <!-- Custom Cursor Elements -->
+    <div class="cursor-dot hidden md:block"></div>
+    <div class="cursor-outline hidden md:block"></div>
+
     {% block extra_js %}{% endblock %}
 </body>
+
 </html>

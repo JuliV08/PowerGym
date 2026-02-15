@@ -48,7 +48,7 @@ class GalleryPhoto(models.Model):
     
     thumbnail = ImageSpecField(
         source='image',
-        processors=[Transpose(), ResizeToFill(400, 300)],
+        processors=[Transpose(), ResizeToFill(800, 600)],
         format='JPEG',
         options={'quality': 85}
     )
@@ -85,6 +85,12 @@ class GalleryPhoto(models.Model):
         verbose_name='Orden',
         help_text='Número menor aparece primero'
     )
+
+    is_hero = models.BooleanField(
+        default=False,
+        verbose_name='Es portada (Hero)',
+        help_text='Marcar para mostrar en el carrusel principal'
+    )
     
     created_at = models.DateTimeField(
         auto_now_add=True,
@@ -107,5 +113,16 @@ class GalleryPhoto(models.Model):
     def save(self, *args, **kwargs):
         # Sanitize filename before saving
         if self.image:
-            self.image.name = sanitize_filename(self.image.name)
+            # Only sanitize if it appears to be an unsanitized path (e.g. contains spaces or special chars we don't want)
+            # But be careful not to double-sanitize the path separator.
+            # Best approach: Assume upload_to handles the initial sanitization.
+            # If we need to re-sanitize, we should split, sanitize basename, and join.
+            directory, filename = os.path.split(self.image.name)
+            if directory and not filename: 
+                 # Path ending in slash? unlikely for a file field
+                 pass
+            elif filename:
+                 new_filename = sanitize_filename(filename)
+                 if new_filename != filename:
+                     self.image.name = os.path.join(directory, new_filename).replace('\\', '/')
         super().save(*args, **kwargs)
