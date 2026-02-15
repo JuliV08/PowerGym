@@ -25,6 +25,9 @@ SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 
+# Static files
+STATIC_ROOT = BASE_DIR / 'staticfiles_build'
+
 # Database - override if using DATABASE_URL
 if config('DATABASE_URL', default=None):
     import dj_database_url
