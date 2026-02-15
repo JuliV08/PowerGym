@@ -2,11 +2,7 @@
     "builds": [
         {
             "src": "powergym_vercel.py",
-            "use": "@vercel/python",
-            "config": {
-                "maxLambdaSize": "15mb",
-                "runtime": "python3.12"
-            }
+            "use": "@vercel/python"
         },
         {
             "src": "build_files.sh",
@@ -16,14 +12,10 @@
             }
         }
     ],
-    "routes": [
+    "rewrites": [
         {
-            "src": "/static/(.*)",
-            "dest": "/static/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "powergym_vercel.py"
+            "source": "/(.*)",
+            "destination": "/powergym_vercel.py"
         }
     ]
 }
