@@ -1,0 +1,13 @@
+.git
+venv/
+powergym/venv/
+media/
+powergym/media/
+public_html/
+staticfiles/
+powergym/staticfiles/
+staticfiles_build/
+node_modules/
+.venv/
+*.pyc
+__pycache__/
