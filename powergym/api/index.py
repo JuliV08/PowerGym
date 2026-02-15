@@ -1,28 +1,27 @@
 import os
 import sys
+from django.core.wsgi import get_wsgi_application
 
-# Get the absolute path to the directory containing this file
-current_dir = os.path.dirname(os.path.abspath(__file__))
-# The project root is one level up
-project_root = os.path.join(current_dir, '..')
-# Add to sys.path
-if project_root not in sys.path:
-    sys.path.append(project_root)
+# Set up paths explicitly
+current_dir = os.path.dirname(os.path.abspath(__file__)) # powergym/api
+project_root = os.path.dirname(current_dir) # powergym
+sys.path.append(project_root)
 
-# Debug: Print sys.path to logs
-print(f"Current Dir: {current_dir}")
-print(f"Project Root: {project_root}")
-print(f"Sys Path: {sys.path}")
+# Force settings module
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'powergym_project.settings.production')
 
+# Load the application directly
 try:
-    from powergym_project.wsgi import app
-    # Vercel looks for the 'app' variable in the root of the file
-    handler = app
-except ImportError as e:
-    print(f"Import Error: {e}")
-    # List files in project root to debug
-    try:
-        print(f"Files in {project_root}: {os.listdir(project_root)}")
-    except Exception as list_err:
-        print(f"Could not list dir: {list_err}")
-    raise e
+    app = get_wsgi_application()
+    print("WSGI Application loaded successfully.")
+except Exception as e:
+    print(f"Failed to load WSGI application: {e}")
+    # Create a dummy app to prevent 500 crash effectively, allowing logs to show
+    def fallback_app(environ, start_response):
+        status = '500 Internal Server Error'
+        output = f"Critical Error loading Django: {e}".encode('utf-8')
+        response_headers = [('Content-type', 'text/plain'),
+                            ('Content-Length', str(len(output)))]
+        start_response(status, response_headers)
+        return [output]
+    app = fallback_app

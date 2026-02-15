@@ -27,6 +27,8 @@ X_FRAME_OPTIONS = 'DENY'
 
 # Static files
 STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'static'
+# Use standard storage to avoid 'Missing staticfiles manifest' errors
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # Database - override if using DATABASE_URL
 if config('DATABASE_URL', default=None):

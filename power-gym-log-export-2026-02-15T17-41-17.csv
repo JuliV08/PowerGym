@@ -1,4 +1,172 @@
 TimeUTC,timestampInMs,requestPath,requestMethod,requestQueryString,responseStatusCode,requestId,requestUserAgent,level,environment,branch,vercelCache,type,function,host,deploymentDomain,deploymentId,durationMs,region,maxMemoryUsed,memorySize,message,projectId,traceId,sessionId,invocationId,instanceId,concurrency
+2026-02-15 17:35:14,1771176914668,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,t2sgl-1771176912973-2eb974c85f2f,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:12,1771176912973,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,t2sgl-1771176912973-2eb974c85f2f,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1621,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XT435HVGVZSYXDR0EDKM,,-1
+2026-02-15 17:35:10,1771176910864,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,np9kg-1771176909009-b9d38e917219,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:09,1771176909009,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,np9kg-1771176909009-b9d38e917219,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1803,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XP7NTKH89DM8DCX8XY7E,,-1
+2026-02-15 17:35:07,1771176907869,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,qc8kk-1771176906256-b7ba409bcc0a,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:06,1771176906256,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,qc8kk-1771176906256-b7ba409bcc0a,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1561,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XKHM938N8NMCHK9KMAXH,,-1
+2026-02-15 17:35:06,1771176906221,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,h9sps-1771176904595-28a7a03e17f0,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:04,1771176904595,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,h9sps-1771176904595-28a7a03e17f0,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1564,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XHXQ0CVJ8X5VJRX7JANR,,-1
+2026-02-15 17:35:05,1771176905297,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,2hq52-1771176903787-54af9ffb6190,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:03,1771176903787,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,2hq52-1771176903787-54af9ffb6190,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1458,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XH4GR9KV4PWRBY0F27P1,,-1
+2026-02-15 17:35:02,1771176902514,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,4vlh9-1771176900993-1654eb1e624f,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:00,1771176900993,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,4vlh9-1771176900993-1654eb1e624f,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1473,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XED4VTHGYT7G5DCQ5M4D,,-1
+2026-02-15 17:35:01,1771176901691,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,m8w8v-1771176900084-e2ca8f9bad39,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:35:00,1771176900084,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,m8w8v-1771176900084-e2ca8f9bad39,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1543,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XDH6JE5GFC4Z0S2V6PZ0,,-1
+2026-02-15 17:34:59,1771176899909,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,,t4lbv-1771176898289-1edb6fc6af68,vercel-favicon/1.0,error,production,main,,function,,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:34:58,1771176898289,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,,t4lbv-1771176898289-1edb6fc6af68,vercel-favicon/1.0,,production,main,,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1560,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XBRSJNNBGC1JA11F4S7D,,-1
+2026-02-15 17:34:58,1771176898981,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,w2dg4-1771176897447-3e16eaea5872,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.png,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:34:57,1771176897447,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.png,GET,,500,w2dg4-1771176897447-3e16eaea5872,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1481,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XAYBCZYZW2KY8WBMHBE6,,-1
+2026-02-15 17:34:58,1771176898161,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,49xvq-1771176896546-714b71c51199,vercel-favicon/1.0,error,production,main,MISS,function,/,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:34:56,1771176896546,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,49xvq-1771176896546-714b71c51199,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1556,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5XA2F6RXFNWCDS8BZAEWD,,-1
+2026-02-15 17:34:57,1771176897409,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,cj569-1771176895916-8b43d4c18881,vercel-favicon/1.0,error,production,main,MISS,function,/favicon.ico,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:34:55,1771176895916,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,500,cj569-1771176895916-8b43d4c18881,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1435,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5X9EMD2GD7D5H8RHPY5RT,,-1
+2026-02-15 17:34:55,1771176895457,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,rl8rs-1771176893990-654378ce6441,vercel-favicon/1.0,error,production,main,MISS,function,/,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+Project Root: /var/task/powergym/api/..
+Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
+/var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
+mw_instance = middleware(adapted_handler)
+Traceback (most recent call last):
+File ""/var/task/vc__handler__python.py"", line 37, in <module>
+from vercel_runtime.vc_init import vc_handler
+File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 458, in <module>
+if not issubclass(base, BaseHTTPRequestHandler):
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: issubclass() arg 1 must be a class
+Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
+2026-02-15 17:34:53,1771176893990,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,rl8rs-1771176893990-654378ce6441,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1415,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5X7JA01CBKGNB1MAQ72Z1,,-1
 2026-02-15 17:34:53,1771176893806,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,,6lfm4-1771176892351-2c786e57195d,vercel-favicon/1.0,error,production,main,,function,,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
 Project Root: /var/task/powergym/api/..
 Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
@@ -41,7 +209,7 @@ if not issubclass(base, BaseHTTPRequestHandler):
 TypeError: issubclass() arg 1 must be a class
 Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
 2026-02-15 17:34:48,1771176888160,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,z722j-1771176888160-c5759455aae8,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1436,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5X1W8YN20RTYTBCFFRT8M,,-1
-2026-02-15 17:34:49,1771176889383,power-gym-eta.vercel.app/,GET,,500,rjw6k-1771176887434-454b04f24804,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",error,production,main,MISS,function,/,power-gym-eta.vercel.app,power-gym-eta.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+2026-02-15 17:34:49,1771176889383,power-gym-eta.vercel.app/,GET,,500,rjw6k-1771176887434-454b04f24804,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",error,production,main,MISS,function,/,power-gym-eta.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
 Project Root: /var/task/powergym/api/..
 Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
 /var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
@@ -54,8 +222,8 @@ if not issubclass(base, BaseHTTPRequestHandler):
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: issubclass() arg 1 must be a class
 Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:34:47,1771176887434,power-gym-eta.vercel.app/,GET,,500,rjw6k-1771176887434-454b04f24804,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",,production,main,MISS,function,/powergym/api/index.py,power-gym-eta.vercel.app,power-gym-eta.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1512,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5X1HEMWEF57KKZ76Q8VCC,,-1
-2026-02-15 17:34:47,1771176887116,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,,kjs2p-1771176885524-350a6defdccc,vercel-favicon/1.0,error,production,main,,function,,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
+2026-02-15 17:34:47,1771176887434,power-gym-eta.vercel.app/,GET,,500,rjw6k-1771176887434-454b04f24804,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",,production,main,MISS,function,/powergym/api/index.py,power-gym-eta.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1512,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5X1HEMWEF57KKZ76Q8VCC,,-1
+2026-02-15 17:34:47,1771176887116,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,kjs2p-1771176885524-350a6defdccc,vercel-favicon/1.0,error,production,main,MISS,function,/,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
 Project Root: /var/task/powergym/api/..
 Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
 /var/task/_vendor/django/core/handlers/base.py:61: UserWarning: No directory at: /var/task/powergym/staticfiles_build/static/
@@ -68,7 +236,7 @@ if not issubclass(base, BaseHTTPRequestHandler):
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: issubclass() arg 1 must be a class
 Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:34:45,1771176885524,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,,kjs2p-1771176885524-350a6defdccc,vercel-favicon/1.0,,production,main,,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1529,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5WZA2C6ZAMH5J6DKXFS3Y,,-1
+2026-02-15 17:34:45,1771176885524,power-ioi044zyh-juliv08s-projects.vercel.app/,GET,,500,kjs2p-1771176885524-350a6defdccc,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,1529,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH5WZA2C6ZAMH5J6DKXFS3Y,,-1
 2026-02-15 17:34:40,1771176880961,power-ioi044zyh-juliv08s-projects.vercel.app/favicon.ico,GET,,,4294r-1771176879257-ab1ab0c0cb0a,vercel-screenshot/1.0,error,production,main,,function,,power-ioi044zyh-juliv08s-projects.vercel.app,power-ioi044zyh-juliv08s-projects.vercel.app,dpl_D4zmonF6SZN3D6hWc1kmzZ2bDy1J,,,,,"Current Dir: /var/task/powergym/api
 Project Root: /var/task/powergym/api/..
 Sys Path: ['/var/task', '/var/task/_vendor', '/var/lang/lib/python312.zip', '/var/lang/lib/python3.12', '/var/lang/lib/python3.12/lib-dynload', '/var/lang/lib/python3.12/site-packages', '/var/task/powergym/api/..']
@@ -564,135 +732,3 @@ from powergym_project.wsgi import app
 ModuleNotFoundError: No module named 'powergym_project'
 Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
 2026-02-15 17:23:28,1771176208585,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,x59w7-1771176208585-99f705520a0b,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,170,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH58A7VSFXZP5P2D93QF0WX,,-1
-2026-02-15 17:23:28,1771176208662,power-gym-eta.vercel.app/,GET,,500,hr2f5-1771176208003-974e295ce9c3,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",error,production,main,MISS,function,/,power-gym-eta.vercel.app,power-gym-eta.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:28,1771176208003,power-gym-eta.vercel.app/,GET,,500,hr2f5-1771176208003-974e295ce9c3,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",,production,main,MISS,function,/powergym/api/index.py,power-gym-eta.vercel.app,power-gym-eta.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,169,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH58A2JBC80FVWC6EQ8TZ4Q,,-1
-2026-02-15 17:23:27,1771176207462,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,f8prc-1771176207235-b839bc6be5ac,vercel-favicon/1.0,error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:27,1771176207235,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,f8prc-1771176207235-b839bc6be5ac,vercel-favicon/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,167,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH588XABNW0WQ2D1GXPQB9A,,-1
-2026-02-15 17:23:08,1771176188842,power-5y8c48r1o-juliv08s-projects.vercel.app/favicon.ico,GET,,,lkbts-1771176188602-830038852e83,vercel-screenshot/1.0,error,production,main,,function,,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:08,1771176188602,power-5y8c48r1o-juliv08s-projects.vercel.app/favicon.ico,GET,,,lkbts-1771176188602-830038852e83,vercel-screenshot/1.0,,production,main,,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,182,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57PQ1GXDCC55T6DZ3TFHG,,-1
-2026-02-15 17:23:08,1771176188948,power-5y8c48r1o-juliv08s-projects.vercel.app/favicon.ico,GET,,500,b67sj-1771176188454-bd10ab9165a4,vercel-screenshot/1.0,error,production,main,MISS,function,/favicon.ico,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:08,1771176188454,power-5y8c48r1o-juliv08s-projects.vercel.app/favicon.ico,GET,,500,b67sj-1771176188454-bd10ab9165a4,vercel-screenshot/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,170,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57PTX3R551DVXR1DZSZMR,,-1
-2026-02-15 17:23:08,1771176188540,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,67qrf-1771176188203-e8e4efa747b3,vercel-screenshot/1.0,error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:08,1771176188203,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,67qrf-1771176188203-e8e4efa747b3,vercel-screenshot/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,189,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57PDDF60CNY7KNHYDCD70,,-1
-2026-02-15 17:23:08,1771176188387,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,km86c-1771176188164-875e6932f6a4,vercel-screenshot/1.0,error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:08,1771176188164,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,km86c-1771176188164-875e6932f6a4,vercel-screenshot/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,173,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57P97GRMNA7PKWK53ME8T,,-1
-2026-02-15 17:23:08,1771176188243,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,rljts-1771176187911-f95ed98c098e,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.0 Safari/537.36",error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:07,1771176187911,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,rljts-1771176187911-f95ed98c098e,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.0 Safari/537.36",,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,175,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57P4E2XNSRA517AWBG0ZH,,-1
-2026-02-15 17:23:08,1771176188059,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,dckbz-1771176187357-388667c62664,vercel-screenshot/1.0,error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.
-Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:07,1771176187357,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,dckbz-1771176187357-388667c62664,vercel-screenshot/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,175,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57NJ8BZ19EZGQM40Y9J1N,,-1
-2026-02-15 17:23:08,1771176188059,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,fsc54-1771176187308-fb3bb91442ab,vercel-screenshot/1.0,error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.
-Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:07,1771176187308,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,fsc54-1771176187308-fb3bb91442ab,vercel-screenshot/1.0,,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,176,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57NJ7XJQN1PB7HN1YXG1P,,-1
-2026-02-15 17:23:07,1771176187727,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,7qlts-1771176187163-c7b5ed04a4fe,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.0 Safari/537.36",error,production,main,MISS,function,/,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,,,,,"Error importing powergym/api/index.py:
-Traceback (most recent call last):
-File ""/var/task/_vendor/vercel_runtime/vc_init.py"", line 238, in <module>
-__vc_spec.loader.exec_module(__vc_module)
-File ""<frozen importlib._bootstrap_external>"", line 999, in exec_module
-File ""<frozen importlib._bootstrap>"", line 488, in _call_with_frames_removed
-File ""/var/task/powergym/api/index.py"", line 1, in <module>
-from powergym_project.wsgi import app
-ModuleNotFoundError: No module named 'powergym_project'
-Python process exited with exit status: 1. The logs above can help with debugging the issue.",prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:23:07,1771176187163,power-5y8c48r1o-juliv08s-projects.vercel.app/,GET,,500,7qlts-1771176187163-c7b5ed04a4fe,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.0 Safari/537.36",,production,main,MISS,function,/powergym/api/index.py,power-5y8c48r1o-juliv08s-projects.vercel.app,power-5y8c48r1o-juliv08s-projects.vercel.app,dpl_57QP3cMzaz8oaauWVZstWDHDyakq,175,iad1,-1,2048,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,01KHH57NHZCQDA5PJZ81F3HD0V,,-1
-2026-02-15 17:11:40,1771175500290,power-ok7kp023k-juliv08s-projects.vercel.app/,GET,,404,rgn46-1771175500290-234c8ace8c59,"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.7390.0 Safari/537.36",,production,main,,static,/404.html,power-ok7kp023k-juliv08s-projects.vercel.app,power-ok7kp023k-juliv08s-projects.vercel.app,dpl_FxbfcLpBWzJs2XPoZe3ec5guW4xZ,4,sfo1,,,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
-2026-02-15 17:11:40,1771175500255,power-ok7kp023k-juliv08s-projects.vercel.app/favicon.png,GET,,404,nr9qs-1771175500255-af5c51f40622,vercel-favicon/1.0,,production,main,,static,/404.html,power-ok7kp023k-juliv08s-projects.vercel.app,power-ok7kp023k-juliv08s-projects.vercel.app,dpl_FxbfcLpBWzJs2XPoZe3ec5guW4xZ,1,sfo1,,,,prj_UMrDsV93bUP3gZKNYhKSbDrbd1tf,,,,,
