@@ -2,14 +2,29 @@
     "version": 2,
     "builds": [
         {
+            "src": "powergym/build_files.sh",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "staticfiles_build"
+            }
+        },
+        {
             "src": "powergym/api/index.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
+            "src": "/static/(.*)",
+            "dest": "/powergym/staticfiles_build/static/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "powergym/api/index.py"
+            "dest": "/powergym/api/index.py"
         }
-    ]
+    ],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "powergym_project.settings.production",
+        "PYTHON_VERSION": "3.12"
+    }
 }

@@ -8,12 +8,12 @@ from decouple import config
 DEBUG = False
 
 # ALLOWED_HOSTS from environment
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='powergym.ar,www.powergym.ar').split(',')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='.vercel.app,.powergym.ar').split(',')
 
 # CSRF Settings
 CSRF_TRUSTED_ORIGINS = config(
     'CSRF_TRUSTED_ORIGINS',
-    default='https://powergym.ar,https://www.powergym.ar'
+    default='https://*.vercel.app,https://powergym.ar,https://www.powergym.ar'
 ).split(',')
 
 # Security settings for production
