@@ -26,7 +26,7 @@ SECURE_CONTENT_TYPE_NOSNIFF = True
 X_FRAME_OPTIONS = 'DENY'
 
 # Static files
-STATIC_ROOT = BASE_DIR / 'staticfiles_build'
+STATIC_ROOT = BASE_DIR / 'staticfiles_build' / 'static'
 
 # Database - override if using DATABASE_URL
 if config('DATABASE_URL', default=None):
