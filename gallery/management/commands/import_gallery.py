@@ -17,35 +17,20 @@ class Command(BaseCommand):
         # Categories mapping
         # vestuarios, cardio, elgym, musculacion
         
-        # 1. Import Gallery
-        gallery_path = os.path.join(public_html, 'images', 'galeria')
+        # Import Gallery (WebP)
+        gallery_path = os.path.join(public_html, 'images', 'galeria_webp')
         if os.path.exists(gallery_path):
             self.stdout.write(f"Scanning {gallery_path}...")
             for filename in os.listdir(gallery_path):
-                if not filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+                if not filename.endswith('.webp'):
                     continue
-                
-                # Determine category
+                    
+                # Category detection
                 category = 'elgym' # Default
                 lower_name = filename.lower()
                 
-                if 'vest' in lower_name:
-                    category = 'vestuarios'
-                elif 'cardio' in lower_name:
-                    category = 'cardio'
-                elif 'muscu' in lower_name:
-                    category = 'musculacion'
-                elif 'elgym' in lower_name:
-                    category = 'elgym'
-                
-                file_path = os.path.join(gallery_path, filename)
-                
-                # Check if exists to avoid dups (simple check by title)
-                if GalleryPhoto.objects.filter(title=filename).exists():
-                    self.stdout.write(f"Skipping {filename}, already exists")
-                    continue
-                
                 try:
+                    file_path = os.path.join(gallery_path, filename)
                     with open(file_path, 'rb') as f:
                         photo = GalleryPhoto(
                             title=filename,
@@ -57,12 +42,12 @@ class Command(BaseCommand):
                 except Exception as e:
                     self.stdout.write(self.style.ERROR(f"Failed to import {filename}: {e}"))
 
-        # 2. Import Slider (Hero)
-        slider_path = os.path.join(public_html, 'images', 'slider')
+        # Import Slider/Hero (WebP)
+        slider_path = os.path.join(public_html, 'images', 'slider_webp')
         if os.path.exists(slider_path):
             self.stdout.write(f"Scanning {slider_path}...")
             for filename in os.listdir(slider_path):
-                if not filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+                if not filename.endswith('.webp'):
                     continue
                 
                 if GalleryPhoto.objects.filter(title=f"Hero-{filename}").exists():

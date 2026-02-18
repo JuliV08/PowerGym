@@ -57,3 +57,5 @@ docker-compose.override.yml
 # Others
 villex_nginx_mounts.txt
 node_modules/
+.vercel
+.env*.local

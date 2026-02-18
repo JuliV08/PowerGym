@@ -15,4 +15,7 @@ pip install -r requirements.txt
 # Run collectstatic using the virtual environment's python
 python3 manage.py collectstatic --noinput --clear --verbosity 2
 
+# Apply database migrations
+python3 manage.py migrate --noinput
+
 
